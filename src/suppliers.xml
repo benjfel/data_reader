@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<supplier-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<supplier>
+		<supplierid>1</supplierid>
+		<companyname>Supplier SWRXU</companyname>
+		<contactname>Adams, Terry</contactname>
+		<contacttitle>Purchasing Manager</contacttitle>
+		<address>2345 Gilbert St.</address>
+		<city>London</city>
+		<region>NULL</region>
+		<postalcode>10023</postalcode>
+		<country>UK</country>
+		<phone>(171) 456-7890</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>2</supplierid>
+		<companyname>Supplier VHQZD</companyname>
+		<contactname>Hance, Jim</contactname>
+		<contacttitle>Order Administrator</contacttitle>
+		<address>P.O. Box 5678</address>
+		<city>New Orleans</city>
+		<region>LA</region>
+		<postalcode>10013</postalcode>
+		<country>USA</country>
+		<phone>(100) 555-0111</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>3</supplierid>
+		<companyname>Supplier STUAZ</companyname>
+		<contactname>Parovszky, Alfons</contactname>
+		<contacttitle>Sales Representative</contacttitle>
+		<address>1234 Oxford Rd.</address>
+		<city>Ann Arbor</city>
+		<region>MI</region>
+		<postalcode>10026</postalcode>
+		<country>USA</country>
+		<phone>(313) 555-0109</phone>
+		<fax>(313) 555-0112</fax>
+	</supplier>
+	<supplier>
+		<supplierid>4</supplierid>
+		<companyname>Supplier QOVFD</companyname>
+		<contactname>Balázs, Erzsébet</contactname>
+		<contacttitle>Marketing Manager</contacttitle>
+		<address>7890 Sekimai Musashino-shi</address>
+		<city>Tokyo</city>
+		<region>NULL</region>
+		<postalcode>10011</postalcode>
+		<country>Japan</country>
+		<phone>(03) 6789-0123</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>5</supplierid>
+		<companyname>Supplier EQPNC</companyname>
+		<contactname>Hofmann, Roland</contactname>
+		<contacttitle>Export Administrator</contacttitle>
+		<address>Calle del Rosal 4567</address>
+		<city>Oviedo</city>
+		<region>Asturias</region>
+		<postalcode>10029</postalcode>
+		<country>Spain</country>
+		<phone>(98) 123 45 67</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>6</supplierid>
+		<companyname>Supplier QWUSF</companyname>
+		<contactname>Popkova, Darya</contactname>
+		<contacttitle>Marketing Representative</contacttitle>
+		<address>8901 Setsuko Chuo-ku</address>
+		<city>Osaka</city>
+		<region>NULL</region>
+		<postalcode>10028</postalcode>
+		<country>Japan</country>
+		<phone>(06) 789-0123</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>7</supplierid>
+		<companyname>Supplier GQRCV</companyname>
+		<contactname>Herp, Jesper</contactname>
+		<contacttitle>Marketing Manager</contacttitle>
+		<address>5678 Rose St. Moonie Ponds</address>
+		<city>Melbourne</city>
+		<region>Victoria</region>
+		<postalcode>10018</postalcode>
+		<country>Australia</country>
+		<phone>(03) 123-4567</phone>
+		<fax>(03) 456-7890</fax>
+	</supplier>
+	<supplier>
+		<supplierid>8</supplierid>
+		<companyname>Supplier BWGYE</companyname>
+		<contactname>Iallo, Lucio</contactname>
+		<contacttitle>Sales Representative</contacttitle>
+		<address>9012 King's Way</address>
+		<city>Manchester</city>
+		<region>NULL</region>
+		<postalcode>10021</postalcode>
+		<country>UK</country>
+		<phone>(161) 567-8901</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>9</supplierid>
+		<companyname>Supplier QQYEU</companyname>
+		<contactname>Basalik, Evan</contactname>
+		<contacttitle>Sales Agent</contacttitle>
+		<address>Kaloadagatan 4567</address>
+		<city>Göteborg</city>
+		<region>NULL</region>
+		<postalcode>10022</postalcode>
+		<country>Sweden</country>
+		<phone>031-345 67 89</phone>
+		<fax>031-678 90 12</fax>
+	</supplier>
+	<supplier>
+		<supplierid>10</supplierid>
+		<companyname>Supplier UNAHG</companyname>
+		<contactname>Barnett, Dave</contactname>
+		<contacttitle>Marketing Manager</contacttitle>
+		<address>Av. das Americanas 2345</address>
+		<city>Sao Paulo</city>
+		<region>NULL</region>
+		<postalcode>10034</postalcode>
+		<country>Brazil</country>
+		<phone>(11) 345 6789</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>11</supplierid>
+		<companyname>Supplier ZPYVS</companyname>
+		<contactname>Jain, Mukesh</contactname>
+		<contacttitle>Sales Manager</contacttitle>
+		<address>Tiergartenstraße 3456</address>
+		<city>Berlin</city>
+		<region>NULL</region>
+		<postalcode>10016</postalcode>
+		<country>Germany</country>
+		<phone>(010) 3456789</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>12</supplierid>
+		<companyname>Supplier SVIYA</companyname>
+		<contactname>Reagan, April</contactname>
+		<contacttitle>International Marketing Mgr.</contacttitle>
+		<address>Bogenallee 9012</address>
+		<city>Frankfurt</city>
+		<region>NULL</region>
+		<postalcode>10024</postalcode>
+		<country>Germany</country>
+		<phone>(069) 234567</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>13</supplierid>
+		<companyname>Supplier TEGSC</companyname>
+		<contactname>Brehm, Peter</contactname>
+		<contacttitle>Coordinator Foreign Markets</contacttitle>
+		<address>Frahmredder 3456</address>
+		<city>Cuxhaven</city>
+		<region>NULL</region>
+		<postalcode>10019</postalcode>
+		<country>Germany</country>
+		<phone>(04721) 1234</phone>
+		<fax>(04721) 2345</fax>
+	</supplier>
+	<supplier>
+		<supplierid>14</supplierid>
+		<companyname>Supplier KEREV</companyname>
+		<contactname>Keil, Kendall</contactname>
+		<contacttitle>Sales Representative</contacttitle>
+		<address>Viale Dante, 6789</address>
+		<city>Ravenna</city>
+		<region>NULL</region>
+		<postalcode>10015</postalcode>
+		<country>Italy</country>
+		<phone>(0544) 56789</phone>
+		<fax>(0544) 34567</fax>
+	</supplier>
+	<supplier>
+		<supplierid>15</supplierid>
+		<companyname>Supplier NZLIF</companyname>
+		<contactname>Sałas-Szlejter, Karolina</contactname>
+		<contacttitle>Marketing Manager</contacttitle>
+		<address>Hatlevegen 1234</address>
+		<city>Sandvika</city>
+		<region>NULL</region>
+		<postalcode>10025</postalcode>
+		<country>Norway</country>
+		<phone>(0)9-012345</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>16</supplierid>
+		<companyname>Supplier UHZRG</companyname>
+		<contactname>Scholl, Thorsten</contactname>
+		<contacttitle>Regional Account Rep.</contacttitle>
+		<address>8901 - 8th Avenue Suite 210</address>
+		<city>Bend</city>
+		<region>OR</region>
+		<postalcode>10035</postalcode>
+		<country>USA</country>
+		<phone>(503) 555-0108</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>17</supplierid>
+		<companyname>Supplier QZGUF</companyname>
+		<contactname>Kleinerman, Christian</contactname>
+		<contacttitle>Sales Representative</contacttitle>
+		<address>Brovallavägen 0123</address>
+		<city>Stockholm</city>
+		<region>NULL</region>
+		<postalcode>10033</postalcode>
+		<country>Sweden</country>
+		<phone>08-234 56 78</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>18</supplierid>
+		<companyname>Supplier LVJUA</companyname>
+		<contactname>Canel, Fabrice</contactname>
+		<contacttitle>Sales Manager</contacttitle>
+		<address>3456, Rue des Francs-Bourgeois</address>
+		<city>Paris</city>
+		<region>NULL</region>
+		<postalcode>10031</postalcode>
+		<country>France</country>
+		<phone>(1) 90.12.34.56</phone>
+		<fax>(1) 01.23.45.67</fax>
+	</supplier>
+	<supplier>
+		<supplierid>19</supplierid>
+		<companyname>Supplier JDNUG</companyname>
+		<contactname>Chapman, Greg</contactname>
+		<contacttitle>Wholesale Account Agent</contacttitle>
+		<address>Order Processing Dept. 7890 Paul Revere Blvd.</address>
+		<city>Boston</city>
+		<region>MA</region>
+		<postalcode>10027</postalcode>
+		<country>USA</country>
+		<phone>(617) 555-0110</phone>
+		<fax>(617) 555-0113</fax>
+	</supplier>
+	<supplier>
+		<supplierid>20</supplierid>
+		<companyname>Supplier CIYNM</companyname>
+		<contactname>Koch, Christine</contactname>
+		<contacttitle>Owner</contacttitle>
+		<address>6789 Serangoon Loop, Suite #402</address>
+		<city>Singapore</city>
+		<region>NULL</region>
+		<postalcode>10037</postalcode>
+		<country>Singapore</country>
+		<phone>012-3456</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>21</supplierid>
+		<companyname>Supplier XOXZA</companyname>
+		<contactname>Shakespear, Paul</contactname>
+		<contacttitle>Sales Manager</contacttitle>
+		<address>Lyngbysild Fiskebakken 9012</address>
+		<city>Lyngby</city>
+		<region>NULL</region>
+		<postalcode>10012</postalcode>
+		<country>Denmark</country>
+		<phone>67890123</phone>
+		<fax>78901234</fax>
+	</supplier>
+	<supplier>
+		<supplierid>22</supplierid>
+		<companyname>Supplier FNUXM</companyname>
+		<contactname>Skelly, Bonnie L.</contactname>
+		<contacttitle>Accounting Manager</contacttitle>
+		<address>Verkoop Rijnweg 8901</address>
+		<city>Zaandam</city>
+		<region>NULL</region>
+		<postalcode>10014</postalcode>
+		<country>Netherlands</country>
+		<phone>(12345) 8901</phone>
+		<fax>(12345) 5678</fax>
+	</supplier>
+	<supplier>
+		<supplierid>23</supplierid>
+		<companyname>Supplier ELCRN</companyname>
+		<contactname>Lamb, Karin</contactname>
+		<contacttitle>Product Manager</contacttitle>
+		<address>Valtakatu 1234</address>
+		<city>Lappeenranta</city>
+		<region>NULL</region>
+		<postalcode>10032</postalcode>
+		<country>Finland</country>
+		<phone>(953) 78901</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>24</supplierid>
+		<companyname>Supplier JNNES</companyname>
+		<contactname>Clarkson, John</contactname>
+		<contacttitle>Sales Representative</contacttitle>
+		<address>6789 Prince Edward Parade Hunter's Hill</address>
+		<city>Sydney</city>
+		<region>NSW</region>
+		<postalcode>10030</postalcode>
+		<country>Australia</country>
+		<phone>(02) 234-5678</phone>
+		<fax>(02) 567-8901</fax>
+	</supplier>
+	<supplier>
+		<supplierid>25</supplierid>
+		<companyname>Supplier ERVYZ</companyname>
+		<contactname>Sprenger, Christof</contactname>
+		<contacttitle>Marketing Manager</contacttitle>
+		<address>7890 Rue St. Laurent</address>
+		<city>Montréal</city>
+		<region>Québec</region>
+		<postalcode>10017</postalcode>
+		<country>Canada</country>
+		<phone>(514) 456-7890</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>26</supplierid>
+		<companyname>Supplier ZWZDM</companyname>
+		<contactname>Cunha, Gonçalo</contactname>
+		<contacttitle>Order Administrator</contacttitle>
+		<address>Via dei Gelsomini, 5678</address>
+		<city>Salerno</city>
+		<region>NULL</region>
+		<postalcode>10020</postalcode>
+		<country>Italy</country>
+		<phone>(089) 4567890</phone>
+		<fax>(089) 4567890</fax>
+	</supplier>
+	<supplier>
+		<supplierid>27</supplierid>
+		<companyname>Supplier ZRYDZ</companyname>
+		<contactname>Paturskis, Leonids</contactname>
+		<contacttitle>Sales Manager</contacttitle>
+		<address>4567, rue H. Voiron</address>
+		<city>Montceau</city>
+		<region>NULL</region>
+		<postalcode>10036</postalcode>
+		<country>France</country>
+		<phone>89.01.23.45</phone>
+		<fax>NULL</fax>
+	</supplier>
+	<supplier>
+		<supplierid>28</supplierid>
+		<companyname>Supplier OAVQT</companyname>
+		<contactname>Teper, Jeff</contactname>
+		<contacttitle>Sales Representative</contacttitle>
+		<address>Bat. B 2345, rue des Alpes</address>
+		<city>Annecy</city>
+		<region>NULL</region>
+		<postalcode>10010</postalcode>
+		<country>France</country>
+		<phone>01.23.45.67</phone>
+		<fax>89.01.23.45</fax>
+	</supplier>
+	<supplier>
+		<supplierid>29</supplierid>
+		<companyname>Supplier OGLRK</companyname>
+		<contactname>Walters, Rob</contactname>
+		<contacttitle>Accounting Manager</contacttitle>
+		<address>0123 rue Chasseur</address>
+		<city>Ste-Hyacinthe</city>
+		<region>Québec</region>
+		<postalcode>10009</postalcode>
+		<country>Canada</country>
+		<phone>(514) 567-890</phone>
+		<fax>(514) 678-9012</fax>
+	</supplier>
+</supplier-data>

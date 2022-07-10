@@ -1,0 +1,30 @@
+supplierid,companyname,contactname,contacttitle,address,city,region,postalcode,country,phone,fax
+1,Supplier SWRXU,"Adams, Terry",Purchasing Manager,2345 Gilbert St.,London,NULL,10023,UK,(171) 456-7890,NULL
+2,Supplier VHQZD,"Hance, Jim",Order Administrator,P.O. Box 5678,New Orleans,LA,10013,USA,(100) 555-0111,NULL
+3,Supplier STUAZ,"Parovszky, Alfons",Sales Representative,1234 Oxford Rd.,Ann Arbor,MI,10026,USA,(313) 555-0109,(313) 555-0112
+4,Supplier QOVFD,"Balázs, Erzsébet",Marketing Manager,7890 Sekimai Musashino-shi,Tokyo,NULL,10011,Japan,(03) 6789-0123,NULL
+5,Supplier EQPNC,"Hofmann, Roland",Export Administrator,Calle del Rosal 4567,Oviedo,Asturias,10029,Spain,(98) 123 45 67,NULL
+6,Supplier QWUSF,"Popkova, Darya",Marketing Representative,8901 Setsuko Chuo-ku,Osaka,NULL,10028,Japan,(06) 789-0123,NULL
+7,Supplier GQRCV,"Herp, Jesper",Marketing Manager,5678 Rose St. Moonie Ponds,Melbourne,Victoria,10018,Australia,(03) 123-4567,(03) 456-7890
+8,Supplier BWGYE,"Iallo, Lucio",Sales Representative,9012 King's Way,Manchester,NULL,10021,UK,(161) 567-8901,NULL
+9,Supplier QQYEU,"Basalik, Evan",Sales Agent,Kaloadagatan 4567,Göteborg,NULL,10022,Sweden,031-345 67 89,031-678 90 12
+10,Supplier UNAHG,"Barnett, Dave",Marketing Manager,Av. das Americanas 2345,Sao Paulo,NULL,10034,Brazil,(11) 345 6789,NULL
+11,Supplier ZPYVS,"Jain, Mukesh",Sales Manager,Tiergartenstraße 3456,Berlin,NULL,10016,Germany,(010) 3456789,NULL
+12,Supplier SVIYA,"Reagan, April",International Marketing Mgr.,Bogenallee 9012,Frankfurt,NULL,10024,Germany,(069) 234567,NULL
+13,Supplier TEGSC,"Brehm, Peter",Coordinator Foreign Markets,Frahmredder 3456,Cuxhaven,NULL,10019,Germany,(04721) 1234,(04721) 2345
+14,Supplier KEREV,"Keil, Kendall",Sales Representative,"Viale Dante, 6789",Ravenna,NULL,10015,Italy,(0544) 56789,(0544) 34567
+15,Supplier NZLIF,"Sa?as-Szlejter, Karolina",Marketing Manager,Hatlevegen 1234,Sandvika,NULL,10025,Norway,(0)9-012345,NULL
+16,Supplier UHZRG,"Scholl, Thorsten",Regional Account Rep.,8901 - 8th Avenue Suite 210,Bend,OR,10035,USA,(503) 555-0108,NULL
+17,Supplier QZGUF,"Kleinerman, Christian",Sales Representative,Brovallavägen 0123,Stockholm,NULL,10033,Sweden,08-234 56 78,NULL
+18,Supplier LVJUA,"Canel, Fabrice",Sales Manager,"3456, Rue des Francs-Bourgeois",Paris,NULL,10031,France,(1) 90.12.34.56,(1) 01.23.45.67
+19,Supplier JDNUG,"Chapman, Greg",Wholesale Account Agent,Order Processing Dept. 7890 Paul Revere Blvd.,Boston,MA,10027,USA,(617) 555-0110,(617) 555-0113
+20,Supplier CIYNM,"Koch, Christine",Owner,"6789 Serangoon Loop, Suite #402",Singapore,NULL,10037,Singapore,012-3456,NULL
+21,Supplier XOXZA,"Shakespear, Paul",Sales Manager,Lyngbysild Fiskebakken 9012,Lyngby,NULL,10012,Denmark,67890123,78901234
+22,Supplier FNUXM,"Skelly, Bonnie L.",Accounting Manager,Verkoop Rijnweg 8901,Zaandam,NULL,10014,Netherlands,(12345) 8901,(12345) 5678
+23,Supplier ELCRN,"Lamb, Karin",Product Manager,Valtakatu 1234,Lappeenranta,NULL,10032,Finland,(953) 78901,NULL
+24,Supplier JNNES,"Clarkson, John",Sales Representative,6789 Prince Edward Parade Hunter's Hill,Sydney,NSW,10030,Australia,(02) 234-5678,(02) 567-8901
+25,Supplier ERVYZ,"Sprenger, Christof",Marketing Manager,7890 Rue St. Laurent,Montréal,Québec,10017,Canada,(514) 456-7890,NULL
+26,Supplier ZWZDM,"Cunha, Gonçalo",Order Administrator,"Via dei Gelsomini, 5678",Salerno,NULL,10020,Italy,(089) 4567890,(089) 4567890
+27,Supplier ZRYDZ,"Paturskis, Leonids",Sales Manager,"4567, rue H. Voiron",Montceau,NULL,10036,France,89.01.23.45,NULL
+28,Supplier OAVQT,"Teper, Jeff",Sales Representative,"Bat. B 2345, rue des Alpes",Annecy,NULL,10010,France,01.23.45.67,89.01.23.45
+29,Supplier OGLRK,"Walters, Rob",Accounting Manager,0123 rue Chasseur,Ste-Hyacinthe,Québec,10009,Canada,(514) 567-890,(514) 678-9012
