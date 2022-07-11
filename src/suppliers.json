@@ -1,0 +1,28 @@
+[
+    {
+	    "id": "0",
+	    "name": "SUPPLIER MUASYD",
+	    "contact_name": "Evers, Ana",
+	    "contact_title": "Marketing VP",
+	    "address": "717 Joseph Gordon St.",
+	    "city": "New York",
+	    "region": "NY",
+	    "postal_code": "10040",
+	    "country": "USA",
+	    "phone": "(347) 231-9033",
+	    "fax": " "
+    }, 
+    {
+    	"id": "0",
+    	"name": "SUPPLIER UUPQWOP",
+    	"contact_name": "Oliver, Max",
+    	"contact_title": "Inventory Manager",
+    	"address": " ",
+    	"city": " ",
+    	"region": " ",
+    	"postal_code": " ",
+    	"country": "USA",
+    	"phone": "(999) 888-7777",
+    	"fax": " "
+    }
+]

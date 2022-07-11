@@ -1,35 +1,36 @@
+# THIS FILE IS FOR TESTING PURPOSES
 import data_reader as dr
 import data_access as da
 
 # suppliers = dr.read_csv('suppliers.csv',',',True)
+suppliers = dr.read_json('suppliers.json')
+# suppliers = dr.read_xml('suppliers.xml')
 
-suppliers = dr.read_xml('suppliers.xml')
+secrets = dr.read_json('secrets.json')
 
-print(suppliers)
+conn = da.connect(driver=secrets['Driver'],
+                  server=secrets['Server'],
+                  database=secrets['Database'],
+                  trusted_connection=True,
+                  username='',
+                  password='')
 
-# secrets = dr.read_json('secrets.json')
+cursor = conn.cursor()
 
-# conn = da.connect(secrets['Driver'],
-#                   secrets['Server'],
-#                   secrets['Database'],
-#                   True)
+count = 0
+for s in suppliers:
+    count += cursor.execute('INSERT INTO Production.Suppliers VALUES(?,?,?,?,?,?,?,?,?,?)',
+                            s['name'],
+                            s['contact_name'],
+                            s['contact_title'],
+                            s['address'],
+                            s['city'],
+                            s['region'],
+                            s['postal_code'],
+                            s['country'],
+                            s['phone'],
+                            s['fax']).rowcount
 
-# cursor = conn.cursor()
+conn.commit()
 
-# count = 0
-# for s in suppliers:
-#     count += cursor.execute('INSERT INTO Production.Suppliers VALUES(?,?,?,?,?,?,?,?,?,?)',
-#                             s[1],
-#                             s[2],
-#                             s[3],
-#                             s[4],
-#                             s[5],
-#                             s[6],
-#                             s[7],
-#                             s[8],
-#                             s[9],
-#                             None).rowcount
-
-# conn.commit()
-
-# print('Rows inserted: ' + str(count))
+print('Rows inserted: ' + str(count))
