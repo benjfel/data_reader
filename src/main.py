@@ -2,35 +2,28 @@
 import data_reader as dr
 import data_access as da
 
-# suppliers = dr.read_csv('suppliers.csv',',',True)
-suppliers = dr.read_json('suppliers.json')
-# suppliers = dr.read_xml('suppliers.xml')
+suppliers = dr.read_excel(r'C:\repos\data_reader\src\suppliers.xls', True)
 
-secrets = dr.read_json('secrets.json')
+print(suppliers)
 
-conn = da.connect(driver=secrets['Driver'],
-                  server=secrets['Server'],
-                  database=secrets['Database'],
-                  trusted_connection=True,
-                  username='',
-                  password='')
+# secrets = dr.read_json('secrets.json')
 
-cursor = conn.cursor()
+# conn = da.connect(driver=secrets[1]['Driver'],
+#                   server=secrets[1]['Server'],
+#                   database=secrets[1]['Database'],
+#                   trusted_connection=True,
+#                   username='',
+#                   password='')
 
-count = 0
-for s in suppliers:
-    count += cursor.execute('INSERT INTO Production.Suppliers VALUES(?,?,?,?,?,?,?,?,?,?)',
-                            s['name'],
-                            s['contact_name'],
-                            s['contact_title'],
-                            s['address'],
-                            s['city'],
-                            s['region'],
-                            s['postal_code'],
-                            s['country'],
-                            s['phone'],
-                            s['fax']).rowcount
+# cursor = conn.cursor()
 
-conn.commit()
+# command = """
+#     SELECT *
+#     FROM 
+# """
 
-print('Rows inserted: ' + str(count))
+# cursor.execute(command)
+
+# results = cursor.fetchall() 
+# for r in results:
+#     print(r)
