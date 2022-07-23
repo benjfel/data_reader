@@ -1,29 +1,44 @@
-# THIS FILE IS FOR TESTING PURPOSES
+# FOR TESTING PURPOSES
 import data_reader as dr
 import data_access as da
 
-suppliers = dr.read_excel(r'C:\repos\data_reader\src\suppliers.xls', True)
+params = dr.read_json('suppliers.json')
 
-print(suppliers)
+conn = da.connect(driver='',
+                  server='',
+                  database='',
+                  trusted_connection=True,
+                  username='',
+                  password='')
 
-# secrets = dr.read_json('secrets.json')
+statement = """
+    INSERT INTO Production.Suppliers VALUES
+    (
+        ?,
+        ?,
+        ?,
+        ?,
+        ?,
+        ?,
+        ?,
+        ?,
+        ?,
+        ?
+    )
+"""
 
-# conn = da.connect(driver=secrets[1]['Driver'],
-#                   server=secrets[1]['Server'],
-#                   database=secrets[1]['Database'],
-#                   trusted_connection=True,
-#                   username='',
-#                   password='')
+row_count = 0
+for p in params:
+    row_count += conn.execute(statement,
+                              p['name'],
+                              p['contact_name'],
+                              p['contact_title'],
+                              p['address'],
+                              p['city'],
+                              p['region'],
+                              p['postal_code'],
+                              p['country'],
+                              p['phone'],
+                              p['fax']).rowcount
 
-# cursor = conn.cursor()
-
-# command = """
-#     SELECT *
-#     FROM 
-# """
-
-# cursor.execute(command)
-
-# results = cursor.fetchall() 
-# for r in results:
-#     print(r)
+print(str(row_count))
